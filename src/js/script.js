@@ -1,5 +1,5 @@
 // DECLARAÇÃO DE VARIAVEIS
- 
+ //ANALISAR NO CONSOLE DA PAGINA
 var nome = "Fiap";
 console.log(nome)
 
@@ -52,4 +52,22 @@ console.log(numInt.toString())
 
 let numstring2 ="123"
 console.log(parseInt(numstring2))
+
+//METODOS//
+
+//METODO LENGTH - VERIFICA O TAMANHO DA STRING
+
+let frase="O mundo da tecnologia"
+console.log(frase.length)
+
+//METODO indexof - RETORNA UM TRECHO DO SEU CÓDIGO
+
+let texto ="Programação Sustentável ão"
+console.log(texto.lastIndexOf('ão'))
+
+//MÉTODO SLICE - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E O FINAL
+let info="Programação de ponta";
+console.log(info.slice(12,20))
+
+//OPERADORES ARITIMÉTICOS
 
