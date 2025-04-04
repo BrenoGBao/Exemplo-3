@@ -71,3 +71,28 @@ console.log(info.slice(12,20))
 
 //OPERADORES ARITIMÉTICOS
 
+const a = 10;
+const b = 20;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+
+//OPERADORES LÓGICOS
+
+const c = 20;
+const d = 30;
+console.log(c<d);
+console.log(c>d && c>10); // '&&' = 'and'//
+console.log(c>d || d>c); // '||' significa 'or'//
+console.log(c == d || d<=c)
+
+//OPERADORES DE COMPARAÇÃO//
+
+const e = 10;
+const f = 30;
+console.log(e==f);
+console.log(e===f);
+console.log(e != f)
+
+
