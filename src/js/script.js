@@ -177,6 +177,20 @@ while(g <10){
     g++;
 }
 
-//JOGO DE ADIVINHAÇÃO//
+//do while
 
+
+
+//JOGO DE ADIVINHAÇÃO//
+//declarando uma variavel indefinida//
 let palpite;
+
+const sorteio = Math.floor(Math.randon() * 10)+1;
+
+do{
+    palpite = parseInt(prompt("escolha um nmero entre 1 e 10"))
+}while(palpite !== sorteio)
+
+alert(`Parabéns Voce ganhou o jogo!${palpite}`)
+
+
