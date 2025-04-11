@@ -162,3 +162,21 @@ console.log(resultado);
 let nota =6;
 let resultado2 = nota ==6 ? "Aprovado": "Reprovado!";
 console.log(resultado2);
+
+//ESTRUTURA DE REPETIÇÃO//
+
+for(let i =0; i<10;i++){
+    console.log("o valor de I é", i)
+}
+
+//while//
+
+let g=0;
+while(g <10){
+    console.log("O valor de g é", g)
+    g++;
+}
+
+//JOGO DE ADIVINHAÇÃO//
+
+let palpite;
