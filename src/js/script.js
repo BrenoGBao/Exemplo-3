@@ -96,4 +96,69 @@ console.log(e===f);
 console.log(e != f)
 
 //CONDICIONAL//
+// if//
 
+if(true){
+    console.log("é verdadeiro")
+}
+
+let exemplo2=1
+if (exemplo2 ==1){
+    console.log("esta correto")
+}
+
+//if / else//
+let nome2 ="Fiap";
+
+if (nome2 =="fiap"){
+    console.log("nome correto")
+    document.write("Nome correto")
+}
+else{
+    console.log("Nome errado")
+    document.write("Nome errado")
+}
+
+//IF encadeado ou alinhado//
+
+let idade2 =13;
+if(idade2 <=14){
+    console.log("Não pode entrar, é menó")
+}
+else if(idade2 >14 && idade2 <=18){
+    console.log("Pode entrar e curtir baiano")
+}
+else if(idade2 > 18 && idade <=50){
+    console.log("Perigo, seus pais estão na balada")
+}
+else{
+    console.log("Voce deveria estar no sofá assistindo netflix")
+}
+
+//SWITCH CASE//
+
+let time ="Gremio";
+
+switch(time){
+case "Gremio":
+    console.log("Melhor time")
+    break;
+case "Sao Paulo":
+    console.log("É tão ruim que não gaha em casa")
+    break;
+case "Internacional":
+    console.log("Simplesmente horrível")
+    break;
+default:
+    console.log("Nenhuma das opções valídas(botafogo)")
+}
+
+//Termario
+
+let valor=101;
+let resultado = valor ==100 ? "Valor certo": "Valor errado";
+console.log(resultado);
+
+let nota =6;
+let resultado2 = nota ==6 ? "Aprovado": "Reprovado!";
+console.log(resultado2);
